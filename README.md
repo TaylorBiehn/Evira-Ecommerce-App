@@ -3,14 +3,6 @@
 
 ---
 
-# 🛍️ Evira E-Commerce App
-
-**Evira** is a premium **Flutter E-Commerce & Online Shopping app** built with **Bloc**, **Supabase**, and **Clean Architecture**.  
-It delivers a complete and modern shopping experience — from product discovery and filtering to checkout, wallet payments, and order tracking — all with elegant light and dark themes.  
-
-📱 Designed for performance, scalability, and beautiful UI across Android devices.  
-⭐ Built with over **190+ responsive screens** and crafted for developers who want a ready-to-use, production-quality Flutter E-Commerce template.  
-
 [![GitHub Stars](https://img.shields.io/github/stars/AmrSalahDev/Evira-E-Commerce?style=social)](https://github.com/AmrSalahDev/Evira-E-Commerce/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/AmrSalahDev/Evira-E-Commerce?style=social)](https://github.com/AmrSalahDev/Evira-E-Commerce/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/AmrSalahDev/Evira-E-Commerce?style=social)](https://github.com/AmrSalahDev/Evira-E-Commerce/issues)
@@ -30,6 +22,17 @@ It delivers a complete and modern shopping experience — from product discovery
 
 ---
 
+
+# 🛍️ Evira E-Commerce App
+
+**Evira** is a premium **Flutter E-Commerce & Online Shopping app** built with **Bloc**, **Supabase**, and **Clean Architecture**.  
+It delivers a complete and modern shopping experience — from product discovery and filtering to checkout, wallet payments, and order tracking — all with elegant light and dark themes.  
+
+📱 Designed for performance, scalability, and beautiful UI across Android devices.  
+⭐ Built with over **190+ responsive screens** and crafted for developers who want a ready-to-use, production-quality Flutter E-Commerce template.  
+
+
+---
 
 > ⚠️ **Project Status: In Development**  
 >
