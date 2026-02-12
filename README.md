@@ -3,12 +3,6 @@
 
 ---
 
-[![GitHub Stars](https://img.shields.io/github/stars/AmrSalahDev/Evira-E-Commerce?style=social)](https://github.com/AmrSalahDev/Evira-E-Commerce/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/AmrSalahDev/Evira-E-Commerce?style=social)](https://github.com/AmrSalahDev/Evira-E-Commerce/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/AmrSalahDev/Evira-E-Commerce?style=social)](https://github.com/AmrSalahDev/Evira-E-Commerce/issues)
-
----
-
 ## ✨ Badges
 
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
