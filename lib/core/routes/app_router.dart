@@ -390,7 +390,7 @@ class AppRouter {
                 BlocProvider(create: (context) => getIt<FillProfileCubit>()),
                 BlocProvider(create: (context) => getIt<ProfileImageCubit>()),
               ],
-              child: FillProfileScreen(),
+              child: const FillProfileScreen(),
             );
           },
         ),
