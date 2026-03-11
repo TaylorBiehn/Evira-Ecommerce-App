@@ -175,7 +175,7 @@ class AppRouter {
           builder: (context, state) {
             return BlocProvider(
               create: (context) => getIt<OnboardingCubit>(),
-              child: OnBoardingScreen(),
+              child: const OnBoardingScreen(),
             );
           },
         ),
