@@ -1,8 +1,9 @@
 import 'package:evira_e_commerce/core/lang_generated/l10n.dart';
 import 'package:evira_e_commerce/features/login/domain/entities/login_entity.dart';
 import 'package:evira_e_commerce/features/login/domain/usecases/login_usecase.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -30,7 +31,7 @@ class LoginCubit extends Cubit<LoginState> {
       case 'invalid_credentials':
         return EviraLang.current.invalid_credentials;
       default:
-        print(code);
+        debugPrint(code);
         return EviraLang.current.unknownError;
     }
   }

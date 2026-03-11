@@ -75,38 +75,38 @@ import 'package:go_router/go_router.dart';
 import 'package:go_transitions/go_transitions.dart';
 
 class AppPaths {
-  static final String onboarding = '/onboarding';
-  static final String auth = '/socialAuth';
-  static final String home = '/home';
-  static final String signUp = '/signUp';
-  static final String login = '/login';
-  static final String fillProfile = '/fillProfile';
-  static final String createPin = '/createPin';
-  static final String setFingerprint = '/setFingerprint';
-  static final String forgotPassword = '/forgotPassword';
-  static final String forgotPasswordVerify = '/forgotPasswordVerify';
-  static final String createNewPassword = '/createNewPassword';
-  static final String noInternet = '/noInternet';
-  static final String error = '/error';
-  static final String notification = '/notification';
-  static final String wishlist = '/wishlist';
-  static final String specialOffer = '/specialOffer';
-  static final String mostPopular = '/mostPopular';
-  static final String search = '/search';
-  static final String categoryView = '/categoryView';
-  static final String productDetails = '/productDetails';
-  static final String profile = '/profile';
-  static final String language = '/language';
-  static final String inviteFriends = '/inviteFriends';
-  static final String privacyPolicy = '/privacyPolicy';
-  static final String helpCenter = '/helpCenter';
-  static final String customerService = '/customerService';
-  static final String editProfile = '/editProfile';
-  static final String address = '/address';
-  static final String addNewAddress = '/addNewAddress';
-  static final String notificationSettings = '/notificationSettings';
-  static final String addNewCard = '/addNewCard';
-  static final String payment = '/payment';
+  static const String onboarding = '/onboarding';
+  static const String auth = '/socialAuth';
+  static const String home = '/home';
+  static const String signUp = '/signUp';
+  static const String login = '/login';
+  static const String fillProfile = '/fillProfile';
+  static const String createPin = '/createPin';
+  static const String setFingerprint = '/setFingerprint';
+  static const String forgotPassword = '/forgotPassword';
+  static const String forgotPasswordVerify = '/forgotPasswordVerify';
+  static const String createNewPassword = '/createNewPassword';
+  static const String noInternet = '/noInternet';
+  static const String error = '/error';
+  static const String notification = '/notification';
+  static const String wishlist = '/wishlist';
+  static const String specialOffer = '/specialOffer';
+  static const String mostPopular = '/mostPopular';
+  static const String search = '/search';
+  static const String categoryView = '/categoryView';
+  static const String productDetails = '/productDetails';
+  static const String profile = '/profile';
+  static const String language = '/language';
+  static const String inviteFriends = '/inviteFriends';
+  static const String privacyPolicy = '/privacyPolicy';
+  static const String helpCenter = '/helpCenter';
+  static const String customerService = '/customerService';
+  static const String editProfile = '/editProfile';
+  static const String address = '/address';
+  static const String addNewAddress = '/addNewAddress';
+  static const String notificationSettings = '/notificationSettings';
+  static const String addNewCard = '/addNewCard';
+  static const String payment = '/payment';
 }
 
 class GoRouterRefreshStream extends ChangeNotifier {
@@ -129,7 +129,7 @@ class GoRouterRefreshStream extends ChangeNotifier {
 class AppRouter {
   static GoRouter createRouter(AppFlowCubit appFlowCubit, String path) {
     return GoRouter(
-      initialLocation: AppPaths.addNewCard,
+      initialLocation: path,
       refreshListenable: GoRouterRefreshStream(appFlowCubit.stream),
       routes: <RouteBase>[
         ShellRoute(

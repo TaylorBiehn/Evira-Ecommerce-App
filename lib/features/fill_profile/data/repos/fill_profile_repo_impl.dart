@@ -62,7 +62,7 @@ class FillProfileRepoImpl extends FillProfileRepo {
 
       return publicUrl;
     } catch (e) {
-      print("Upload error: $e");
+      debugPrint("Upload error: $e");
       return null;
     }
   }

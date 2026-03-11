@@ -2,6 +2,7 @@ import 'package:evira_e_commerce/features/customer_service/data/models/message_m
 import 'package:evira_e_commerce/features/customer_service/domain/datasource/customer_service_remote_datasource.dart';
 import 'package:evira_e_commerce/features/customer_service/domain/entities/message_entity.dart';
 import 'package:evira_e_commerce/features/customer_service/domain/repo/customer_service_repo.dart';
+import 'package:flutter/foundation.dart';
 import 'package:injectable/injectable.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -40,7 +41,7 @@ class CustomerServiceImpl implements CustomerServiceRepo {
       isUserMessage: isUserMessage,
     );
 
-    print(message);
+    debugPrint(message);
 
     return _customerServiceRemoteDatasource.sendMessage(
       messageModel: messageModel,

@@ -202,7 +202,7 @@ lib
 To run this app locally:
 
 ```bash
-git clone https://github.com/AmrSalahDev/Evira-E-Commerce.git
+git clone https://github.com/alahDev/Evira-E-Commerce.git
 cd Evira-E-Commerce
 flutter pub get
 flutter run

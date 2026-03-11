@@ -1,6 +1,7 @@
 import 'package:evira_e_commerce/features/home/data/models/home_product_model.dart';
 import 'package:evira_e_commerce/features/home/domain/datasources/home_remote_datasource.dart';
 import 'package:evira_e_commerce/features/home/domain/entities/home_product_entity.dart';
+import 'package:flutter/foundation.dart';
 import 'package:injectable/injectable.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -41,7 +42,7 @@ class HomeRemoteDatasourceImpl implements HomeRemoteDatasource {
           .range(start, end);
     }
 
-    print(
+    debugPrint(
       'Fetched products: ${response.length}, page: $page, start: $start, end: $end',
     );
 
