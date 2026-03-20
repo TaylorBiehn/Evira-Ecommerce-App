@@ -49,7 +49,7 @@ class CreditCardUI extends StatelessWidget {
                         color: context.textColor,
                       ),
                     ),
-                    Spacer(),
+                    const Spacer(),
                     Assets.icons.amazonLogo.svg(
                       height: 45.h,
                       width: 45.h,
